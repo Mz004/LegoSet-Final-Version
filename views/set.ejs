@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lego Collection</title>
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            fetch("https://api.quotable.io/random")
+                .then(response => response.json())
+                .then(data => {
+                    const quoteElement = document.getElementById("quote");
+                    quoteElement.innerHTML = `<blockquote>"${data.content}"</blockquote><p>- ${data.author}</p>`;
+                })
+                .catch(error => console.error('Error fetching quote:', error));
+        });
+    </script>
+</head>
+
+<body tabindex="-1">
+    <%- include('partials/navbar', {page: ''}) %>
+    
+    <div class="container mx-auto">
+        <div class="hero bg-base-200 rounded-lg p-6">
+            <div class="hero-content text-center ">
+                <div class="max-w-2xl">
+                    <h1 class="text-5xl font-bold"><%= set.name %></h1>
+                    <p class="py-6">Below, you will find detailed information about the set: <%= set.name %>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="m-8" style="display: flex; align-items: center;">
+        <div class="avatar" style="flex: 2">
+            <img src="<%= set.img_url %>" alt="<%= set.name %>" style="width: 24rem; height: auto; border-radius: 10%; padding: 16px;">
+        </div>
+
+        <div style="flex: 3; padding-left: 20px;">
+            <h2><strong>Set Name: </strong><%= set.name %></h2>
+            <p><strong>Year: </strong><%= set.year %></p>
+            <p><strong>Theme: </strong><%= set.Theme.name %></p>
+            <p><strong>Number of Parts: </strong><%= set.num_parts %></p>
+            <div class="quote mt-4" id="quote"></div>
+            <% if(session.user){ %> <a class="btn btn-outline btn-sm" href="/lego/editSet/<%= set.set_num %>">Edit</a><% } %>
+            <a href="#" class="btn btn-primary btn-sm mt-4" onclick="history.back(); return false;">Back</a>
+        </div>
+    </div>
+    
+</body>
+</html>

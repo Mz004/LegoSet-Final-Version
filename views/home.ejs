@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lego Collection</title>
+  <link rel="stylesheet" href="/css/main.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <style>
+    .card {
+        height: 100%;
+        margin: 10px;
+        background-color: rgba(0, 0, 0, 0.1); ;
+    }
+    
+    .card img {
+        height: 200px;
+        object-fit: cover; 
+    }
+
+  </style>
+</head>
+
+<body tabindex="-1">
+    <%- include('partials/navbar', {page:'/home'}) %>
+
+  <div class="container mx-auto">
+      <div class="hero bg-base-200 rounded-lg p-6">
+          <div class="hero-content text-center ">
+              <div class="max-w-lg">
+                  <h1 class="text-5xl font-bold">Explore Our Lego Collection</h1>
+      
+                  <p class="py-6">Discover your creative prowess as you delve into the vibrant world of Lego, where endless possibilities await your imagination to flourish.</p>
+              
+                  <a href="/lego/sets" class="btn btn-primary">Explore Sets</a>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <br>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div>
+
+          <div class="card bg-base-100 shadow-xl">
+              <figure>
+              <img class="w-full" src="https://cdn.rebrickable.com/media/sets/001-1.jpg" alt="Lego set - 001/1">
+              </figure>
+              <div class="card-body">
+              <h2 class="card-title">Gears</h2>
+              <p>This set was released in America (USA/CAN) by Samsonite in 1965. It was re-released in 1969 as an educational set (322-4). It was never released in Europe.</p>
+                  <div class="card-actions justify-end">
+                          <a href="/lego/sets/001-1" class="btn btn-primary">View</a>
+                  </div>
+              </div>
+
+          </div>
+
+      </div>
+
+      <div>
+        <div class="card bg-base-100 shadow-xl">
+          <figure>
+          <img class="w-full" src="https://cdn.rebrickable.com/media/sets/70411-1.jpg" alt="Lego Set 70411-1">
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Treasure Island</h2>
+            <p>This set was released in America (USA/CAN) by Samsonite in 1966. It was never released in Europe.</p>
+            <div class="card-actions justify-end">
+                <a href="/lego/sets/70411-1" class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+      <div class="card bg-base-100 shadow-xl">
+          <figure>
+          <img class="w-full " src="https://cdn.rebrickable.com/media/sets/70434-1.jpg" alt="Lego Set">
+          </figure>
+          <div class="card-body">
+          <h2 class="card-title">Supernatural Race Car</h2>
+          <p>This LEGO® Hidden Side Supernatural Race Car (70434) playset combines a buildable model with an app for a single or multiplayer, mixed-reality play experience, where interaction with the toy triggers events in the digital world.</p>
+              <div class="card-actions justify-end">
+                  <a href="/lego/sets/70434-1" class="btn btn-primary">View</a>
+              </div>
+          </div>
+      </div>
+
+      </div>
+  </div>
+  
+</body>
+
+</html>

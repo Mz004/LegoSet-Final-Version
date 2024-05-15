@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html data-theme="light" class="h-full">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lego Collection - User History</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body tabindex="-1">
+    <%- include('partials/navbar', {page:'/userHistory'}) %>
+
+    <div class="container mx-auto">
+        <div class="hero bg-base-200 rounded-lg p-6 shadow-md">
+          <div class="hero-content text-center">
+            <div class="max-w-lg">
+              <h1 class="text-3xl font-semibold">User History</h1>
+    
+              <% if (session.user) { %>
+              <div class="text-left mt-4">
+                <p><strong>Username:</strong> <%= session.user.userName %></p>
+                <p><strong>Email:</strong> <%= session.user.email %></p>
+              </div>
+              <% } %>
+            </div>
+          </div>
+        </div>
+    
+        <div class="mt-8">
+          <% if (session.user && session.user.loginHistory) { %>
+          <div class="overflow-x-auto">
+            <table class="table w-full table-zebra">
+              <thead>
+                <tr>
+                  <th class="bg-base-300">Login Date/Time</th>
+                  <th class="bg-base-300">Client Information</th>
+                </tr>
+              </thead>
+              <tbody>
+                <% session.user.loginHistory.forEach(entry => { %>
+                  <tr>
+                    <td><%= entry.dateTime %></td>
+                    <td><%= entry.userAgent %></td>
+                  </tr>
+                <% }) %>
+              </tbody>
+            </table>
+          </div>
+          <% } else { %>
+          <div class="alert alert-info">
+            <span>No login history available.</span>
+          </div>
+          <% } %>
+        </div>
+    
+      </div>
+</body>
+
+</html>

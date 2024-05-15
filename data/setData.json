@@ -1,0 +1,314 @@
+[
+    {
+        "set_num": "001-1",
+        "name": "Gears",
+        "year": "1965",
+        "theme_id": "1",
+        "num_parts": "43",
+        "img_url": "https://cdn.rebrickable.com/media/sets/001-1.jpg"
+    },
+    {
+        "set_num": "0011-2",
+        "name": "Town Mini-Figures",
+        "year": "1979",
+        "theme_id": "67",
+        "num_parts": "12",
+        "img_url": "https://cdn.rebrickable.com/media/sets/0011-2.jpg"
+    },
+    {
+        "set_num": "0011-3",
+        "name": "Castle 2 for 1 Bonus Offer",
+        "year": "1987",
+        "theme_id": "199",
+        "num_parts": "0",
+        "img_url": "https://cdn.rebrickable.com/media/sets/0011-3.jpg"
+    },
+    {
+        "set_num": "0012-1",
+        "name": "Space Mini-Figures",
+        "year": "1979",
+        "theme_id": "143",
+        "num_parts": "12",
+        "img_url": "https://cdn.rebrickable.com/media/sets/0012-1.jpg"
+    },
+    {
+        "set_num": "0014-1",
+        "name": "Space Mini-Figures",
+        "year": "1979",
+        "theme_id": "143",
+        "num_parts": "2",
+        "img_url": "https://cdn.rebrickable.com/media/sets/0014-1.jpg"
+    },
+    {
+        "set_num": "0015-1",
+        "name": "Space Mini-Figures",
+        "year": "1979",
+        "theme_id": "143",
+        "num_parts": "18",
+        "img_url": "https://cdn.rebrickable.com/media/sets/0015-1.jpg"
+    },
+    {
+        "set_num": "0016-1",
+        "name": "Castle Mini Figures",
+        "year": "1979",
+        "theme_id": "189",
+        "num_parts": "15",
+        "img_url": "https://cdn.rebrickable.com/media/sets/0016-1.jpg"
+    },
+    {
+        "set_num": "002-1",
+        "name": "4.5V Samsonite Gears Motor Set",
+        "year": "1965",
+        "theme_id": "1",
+        "num_parts": "3",
+        "img_url": "https://cdn.rebrickable.com/media/sets/002-1.jpg"
+    },
+    {
+        "set_num": "70411-1",
+        "name": "Treasure Island",
+        "year": "2015",
+        "theme_id": "154",
+        "num_parts": "181",
+        "img_url": "https://cdn.rebrickable.com/media/sets/70411-1.jpg"
+    },
+    {
+        "set_num": "70412-1",
+        "name": "Soldiers Fort",
+        "year": "2015",
+        "theme_id": "154",
+        "num_parts": "234",
+        "img_url": "https://cdn.rebrickable.com/media/sets/70412-1.jpg"
+    },
+    {
+        "set_num": "70413-1",
+        "name": "The Brick Bounty",
+        "year": "2015",
+        "theme_id": "154",
+        "num_parts": "745",
+        "img_url": "https://cdn.rebrickable.com/media/sets/70413-1.jpg"
+    },
+    {
+        "set_num": "70418-1",
+        "name": "J.B's Ghost Lab",
+        "year": "2019",
+        "theme_id": "676",
+        "num_parts": "175",
+        "img_url": "https://cdn.rebrickable.com/media/sets/70418-1.jpg"
+    },
+    {
+        "set_num": "70419-1",
+        "name": "Wrecked Shrimp Boat",
+        "year": "2019",
+        "theme_id": "676",
+        "num_parts": "311",
+        "img_url": "https://cdn.rebrickable.com/media/sets/70419-1.jpg"
+    },
+    {
+        "set_num": "70420-1",
+        "name": "Graveyard Mystery",
+        "year": "2019",
+        "theme_id": "676",
+        "num_parts": "336",
+        "img_url": "https://cdn.rebrickable.com/media/sets/70420-1.jpg"
+    },
+    {
+        "set_num": "7042-1",
+        "name": "Dune Patrol",
+        "year": "2004",
+        "theme_id": "105",
+        "num_parts": "37",
+        "img_url": "https://cdn.rebrickable.com/media/sets/7042-1.jpg"
+    },
+    {
+        "set_num": "70421-1",
+        "name": "El Fuego's Stunt Truck",
+        "year": "2019",
+        "theme_id": "676",
+        "num_parts": "429",
+        "img_url": "https://cdn.rebrickable.com/media/sets/70421-1.jpg"
+    },
+    {
+        "set_num": "70422-1",
+        "name": "Shrimp Shack Attack",
+        "year": "2019",
+        "theme_id": "676",
+        "num_parts": "579",
+        "img_url": "https://cdn.rebrickable.com/media/sets/70422-1.jpg"
+    },
+    {
+        "set_num": "70423-1",
+        "name": "Paranormal Intercept Bus 3000",
+        "year": "2019",
+        "theme_id": "676",
+        "num_parts": "689",
+        "img_url": "https://cdn.rebrickable.com/media/sets/70423-1.jpg"
+    },
+    {
+        "set_num": "70424-1",
+        "name": "Ghost Train Express",
+        "year": "2019",
+        "theme_id": "676",
+        "num_parts": "699",
+        "img_url": "https://cdn.rebrickable.com/media/sets/70424-1.jpg"
+    },
+    {
+        "set_num": "70425-1",
+        "name": "Newbury Haunted High School",
+        "year": "2019",
+        "theme_id": "676",
+        "num_parts": "1475",
+        "img_url": "https://cdn.rebrickable.com/media/sets/70425-1.jpg"
+    },
+    {
+        "set_num": "70427-1",
+        "name": "Welcome to the Hidden Side",
+        "year": "2020",
+        "theme_id": "676",
+        "num_parts": "189",
+        "img_url": "https://cdn.rebrickable.com/media/sets/70427-1.jpg"
+    },
+    {
+        "set_num": "70428-1",
+        "name": "Jack's Beach Buggy",
+        "year": "2020",
+        "theme_id": "676",
+        "num_parts": "171",
+        "img_url": "https://cdn.rebrickable.com/media/sets/70428-1.jpg"
+    },
+    {
+        "set_num": "70429-1",
+        "name": "El Fuego's Stunt Plane",
+        "year": "2020",
+        "theme_id": "676",
+        "num_parts": "303",
+        "img_url": "https://cdn.rebrickable.com/media/sets/70429-1.jpg"
+    },
+    {
+        "set_num": "70430-1",
+        "name": "Newbury Subway",
+        "year": "2020",
+        "theme_id": "676",
+        "num_parts": "357",
+        "img_url": "https://cdn.rebrickable.com/media/sets/70430-1.jpg"
+    },
+    {
+        "set_num": "7043-1",
+        "name": "Firefighter",
+        "year": "2004",
+        "theme_id": "105",
+        "num_parts": "69",
+        "img_url": "https://cdn.rebrickable.com/media/sets/7043-1.jpg"
+    },
+    {
+        "set_num": "70431-1",
+        "name": "The Lighthouse of Darkness",
+        "year": "2020",
+        "theme_id": "676",
+        "num_parts": "548",
+        "img_url": "https://cdn.rebrickable.com/media/sets/70431-1.jpg"
+    },
+    {
+        "set_num": "70432-1",
+        "name": "Haunted Fairground",
+        "year": "2020",
+        "theme_id": "676",
+        "num_parts": "474",
+        "img_url": "https://cdn.rebrickable.com/media/sets/70432-1.jpg"
+    },
+    {
+        "set_num": "70433-1",
+        "name": "J.B.'s Submarine",
+        "year": "2020",
+        "theme_id": "676",
+        "num_parts": "224",
+        "img_url": "https://cdn.rebrickable.com/media/sets/70433-1.jpg"
+    },
+    {
+        "set_num": "70434-1",
+        "name": "Supernatural Race Car",
+        "year": "2020",
+        "theme_id": "676",
+        "num_parts": "244",
+        "img_url": "https://cdn.rebrickable.com/media/sets/70434-1.jpg"
+    },
+    {
+        "set_num": "70435-1",
+        "name": "Newbury Abandoned Prison",
+        "year": "2020",
+        "theme_id": "676",
+        "num_parts": "400",
+        "img_url": "https://cdn.rebrickable.com/media/sets/70435-1.jpg"
+    },
+    {
+        "set_num": "70436-1",
+        "name": "Phantom Fire Truck 3000",
+        "year": "2020",
+        "theme_id": "676",
+        "num_parts": "760",
+        "img_url": "https://cdn.rebrickable.com/media/sets/70436-1.jpg"
+    },
+    {
+        "set_num": "70437-1",
+        "name": "Mystery Castle",
+        "year": "2020",
+        "theme_id": "676",
+        "num_parts": "1035",
+        "img_url": "https://cdn.rebrickable.com/media/sets/70437-1.jpg"
+    },
+    {
+        "set_num": "704-4",
+        "name": "Replacement Motor",
+        "year": "1984",
+        "theme_id": "443",
+        "num_parts": "1",
+        "img_url": "https://cdn.rebrickable.com/media/sets/704-4.jpg"
+    },
+    {
+        "set_num": "7044-1",
+        "name": "Rescue Chopper",
+        "year": "2004",
+        "theme_id": "105",
+        "num_parts": "205",
+        "img_url": "https://cdn.rebrickable.com/media/sets/7044-1.jpg"
+    },
+    {
+        "set_num": "7045-1",
+        "name": "Hovercraft Hideout",
+        "year": "2003",
+        "theme_id": "105",
+        "num_parts": "274",
+        "img_url": "https://cdn.rebrickable.com/media/sets/7045-1.jpg"
+    },
+    {
+        "set_num": "7046-1",
+        "name": "Fire Command Craft",
+        "year": "2004",
+        "theme_id": "105",
+        "num_parts": "272",
+        "img_url": "https://cdn.rebrickable.com/media/sets/7046-1.jpg"
+    },
+    {
+        "set_num": "7047-1",
+        "name": "Coast Watch HQ",
+        "year": "2003",
+        "theme_id": "105",
+        "num_parts": "367",
+        "img_url": "https://cdn.rebrickable.com/media/sets/7047-1.jpg"
+    },
+    {
+        "set_num": "7048-1",
+        "name": "Troll Warship",
+        "year": "2008",
+        "theme_id": "193",
+        "num_parts": "494",
+        "img_url": "https://cdn.rebrickable.com/media/sets/7048-1.jpg"
+    },
+    {
+        "set_num": "7049-1",
+        "name": "Alien Striker",
+        "year": "2011",
+        "theme_id": "127",
+        "num_parts": "42",
+        "img_url": "https://cdn.rebrickable.com/media/sets/7049-1.jpg"
+    }
+]

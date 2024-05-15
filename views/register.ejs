@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html data-theme="light" class="h-full">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lego Collection</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body tabindex="-1">
+<%- include('partials/navbar', {page:'/register'}) %>
+
+<div class="container mx-auto p-4">
+    <div class="hero bg-base-200 rounded-lg p-6">
+        <div class="hero-content text-center">
+            <div class="max-w-md">
+                <h1 class="text-5xl font-bold">Register</h1>
+                <p class="py-6">Please provide your information</p>
+            </div>
+        </div>
+    </div>
+</div>
+    <br>
+
+<div class="container mx-auto max-w-lg bg-white p-6 rounded-lg shadow-md">
+    <% if(successMessage && errorMessage === "") { %>
+        <div class="success-message">
+            <span><%= successMessage %></span>
+        </div>
+        <a href="/login" class="btn">Proceed to Log in</a>
+        <% } else { %>
+    <form method="post" action="/register" class="space-y-4">
+        <% if(typeof errorMessage !== 'undefined') { %>
+            <div class="alert">
+                <span><%= errorMessage %></span>
+            </div>
+            <% } %>
+        <div class="form-control">
+        <label for="userName" class="label">
+            <span class="label-text">User Name</span>
+        </label>
+        <input
+            id="userName"
+            name="userName"
+            type="text"
+            placeholder="Enter your username"
+            required
+            class="input input-bordered"
+        />
+        </div>
+        
+        <div class="form-control">
+        <label for="password" class="label">
+            <span class="label-text">Password</span>
+        </label>
+        <input
+            id="password"
+            name="password"
+            type="password"
+            placeholder="Enter your password"
+            required
+            class="input input-bordered"
+        />
+        </div>
+
+        <div class="form-control">
+        <label for="password2" class="label">
+            <span class="label-text">Confirm Password</span>
+        </label>
+        <input
+            id="password2"
+            name="password2"
+            type="password"
+            placeholder="Re-enter your password"
+            required
+            class="input input-bordered"
+        />
+        </div>
+
+        <div class="form-control">
+        <label for="email" class="label">
+            <span class="label-text">Email Address</span>
+        </label>
+        <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="Enter your email address"
+            required
+            class="input input-bordered"
+        />
+        </div>
+
+        <div class="form-control">
+        <input
+            type="submit"
+            value="Register"
+            class="btn btn-success text-white"
+        />
+        </div>
+
+    </form>
+    <% } %>
+</div>
+
+</body>
+
+</html>

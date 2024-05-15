@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html data-theme="light" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lego Collection</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body tabindex="-1">
+<%- include('partials/navbar', {page:'/login'}) %>
+
+<div class="container mx-auto">
+    <div class="hero bg-base-200 rounded-lg p-6">
+        <div class="hero-content text-center ">
+            <div class="max-w-lg">
+                <h1 class="text-3xl font-semibold">Login</h1>
+                <p class="py-2">Please provide your credentials below</p>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="container mx-auto mt-12 max-w-lg bg-white p-6 rounded-lg shadow-lg border-t-black">
+    <form method="POST" action="/login" class="space-y-4">
+      <div class="form-control">
+        <label for="userName" class="label custom-label">User Name</label>
+        <input id="userName" name="userName" type="text" placeholder="User Name" required class="input input-bordered custom-input">
+      </div>
+
+      <div class="form-control">
+        <label for="password" class="label custom-label">Password</label>
+        <input id="password" name="password" type="password" placeholder="Password" required class="input input-bordered custom-input">
+      </div>
+
+      <div>
+        <input type="submit" class="btn btn-success text-white" value="Login">
+      </div>
+    </form>
+  </div>
+
+    <% if (errorMessage) { %>
+        <div class="alert alert-error">
+            <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+            <span><%= errorMessage %></span>
+          </div> 
+          
+    <% } %>
+</div>
+</body>
+</html>
